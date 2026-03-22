@@ -23,4 +23,7 @@ The entire app lives in a single file (`tictactoe.html`) with three co-located s
 ## Git & GitHub
 
 - Remote: `https://github.com/farahtohme93/tictactoe`
-- Always commit with descriptive messages and push after each meaningful change so the project stays backed up on GitHub.
+- **After every meaningful change, commit and push immediately.** This is non-negotiable — it ensures work is never lost and the GitHub repo always reflects the current state.
+- Commit granularly: one logical change per commit (e.g. a new feature, a bug fix, a style update). Do not batch unrelated changes.
+- Commit message format: short imperative subject line (e.g. `Add score reset button`), followed by a blank line and a brief body if the change needs context.
+- Always push after committing — local-only commits defeat the purpose of the backup.
